@@ -1,0 +1,1067 @@
+body {
+  background: #2b4b9cb1;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.container-fluid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: #f8f9fa; 
+  margin-left: auto;
+  margin-right:auto;
+  z-index: 1000;
+}
+
+.image_1 {
+  position: relative;
+  margin-top: -5px;
+  margin-left: 290%;
+  margin-right: auto;
+}
+
+.image_2 {
+  position: relative;
+  margin-top: -5px;
+  margin-left: 320%;
+  margin-right: auto;
+  width: 73px;
+  height: 73px;
+}
+
+.button {
+  position: relative;
+  right: auto;
+  top: 8px;
+  color: #30599c7d;
+  margin-right: auto;
+  margin-left: 42%;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.bottonn:hover {
+  background-color: #2b4b9cb1;
+  border-color: #2b4b9cb1;
+}
+
+.nav nav-pills {
+  right: 60px;
+}
+
+.btn {
+  font-size: 2px;
+  padding: 2px 2px;
+  right: 50px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 210px;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: #2b4b9cb1;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #f8f9fa;
+  border-color: #2b4b9cb1;
+}
+
+.dropdown button {
+  color: #2b4b9cb1;
+  border-color: #2b4b9cb1;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+/*--------------------------------------------------------------
+# HeaderFin
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Introducción Main
+--------------------------------------------------------------*/
+.white-container {
+  max-width: none;
+}
+
+.container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 120px;
+  height: 600px;
+  width: 1700px;
+}
+
+.Titulo_Main_1 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 66px;
+  margin-right: 65px;
+  margin-left: 65px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  }
+
+.note_1 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: justify;
+}
+
+.image-container {
+  height: 500px;
+}
+
+.image-container img {
+  margin-top: 8px;
+  border-radius: 10px;
+}
+
+/*--------------------------------------------------------------
+# Introducción MainFin
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Noticias Main
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.container-xxl {
+background-color: #f8f9fa;
+}
+
+.black-container {
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 890px;
+  width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.noticias_titulo1 {
+  font-size: 66px; 
+  font-family: Geneva, regular; 
+  font-weight: bold;
+  max-width: none;
+  max-height: none;
+  margin-bottom: 20px;
+}
+
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #f8f9fa;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.row {
+  justify-content: center;
+}
+
+/*--------------------------------------------------------------
+# Noticias MainFin
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Carreras Main
+--------------------------------------------------------------*/
+.green-container {
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 740px;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -60px;
+  margin-bottom: auto;
+}
+
+.carreras_titulo1 {
+  font-size: 66px; 
+  font-family: Geneva, regular; 
+  font-weight: bold;
+  max-width: none;
+  max-height: none;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: 650px;
+}
+
+.box1 {
+margin-right: 40px;
+margin-left: 40px;
+}
+
+.pricing .row {
+  padding-top: 40px;
+}
+
+.pricing .box {
+  padding: 60px 70px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.pricing h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.pricing ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing .buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #37517e;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+}
+
+.pricing .featured .buy-btn {
+  background: #37517e;
+  color: #fff;
+}
+
+.pricing .featured .buy-btn:hover {
+  background: #23a3df;
+}
+
+/*--------------------------------------------------------------
+# Carreras MainFin
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Mapa de UNI-RUACS
+--------------------------------------------------------------*/
+.mapa {
+  background-color: #f8f9fa;
+  margin-top: -30px;
+}
+
+/*--------------------------------------------------------------
+# Mapa de UNI-RUACSFIN
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  font-size: 14px;
+  background: #37517e;
+}
+
+.red-container {
+
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin-top: 30px;
+  height: 230px;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .footer-top {
+  padding: 1px 0 30px 0;
+  background: #fff;
+}
+
+#footer .footer-top h3 {
+  color: #37517e;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.facebook img {
+  position: relative;
+  margin-top: -10px;
+  right: 5px;
+}
+
+.logo_mini {
+
+  margin-top: -55px;
+  margin-left: -40px;
+}
+
+/*--------------------------------------------------------------
+# FooterFin
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------------
+Sección ¿Quiénes Somos?
+--------------------------------------------------------------------------------------------------------*/
+.QS {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 660px;
+  width: 1500px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.QS_T1 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 66px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.QS_Tot {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.QS2 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 800px;
+  width: 1500px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.QS_T2 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.QS_Tot2 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.QS3 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 380px;
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.QS_T3 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 66px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.QS_Tot3 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.QS4 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 480px;
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.QS_T4 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 66px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.QS_Tot4 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.Mision-1 {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 710px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Vision-1 {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 710px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Enlaces {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 280px;
+}
+
+.enlance_1 {
+  font-family: Geneva, regular;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boto {
+display: inline-block;
+padding: 12px 35px;
+border-radius: 50px;
+color: #37517e;
+transition: none;
+font-size: 16px;
+font-weight: 500;
+font-family: "Jost", sans-serif;
+transition: 0.3s;
+border: 1px solid #47b2e4;
+background: #37517e;
+color: #fff;
+}
+
+.boto:hover {
+  background: #23a3df;
+}
+
+/*--------------------------------------------------------------------------------------------------------
+Sección ¿Quiénes Somos?Fin
+--------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------
+Sección Investigación
+--------------------------------------------------------------------------------------------------------*/
+.Investigacion {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: auto;
+  width: 1700px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.IT2 {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 600px;
+  width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.ITit1 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 54px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.ITot {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.IMision {
+  background-color: #f8f9fa;
+  width: 380px;
+  height: 560px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.IVision {
+  background-color: #f8f9fa;
+  width: 380px;
+  height: 560px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: auto;
+}
+
+.IAgenda {
+  background-color: #f8f9fa;
+  width: 380px;
+  height: 560px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: auto;
+}
+
+.IT3 {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 740px;
+  width: 1300px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.ITit2 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  margin: 2rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------
+Sección InvestigaciónFin
+--------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------
+Sección Créditos
+--------------------------------------------------------------------------------------------------------*/
+.Creditos {
+  background-color: #ffffff94;
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 500px;
+  width: 1500px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.Cred_tit {
+font-family: Geneva, regular;
+font-weight: bold;
+font-size: 46px;
+text-align: left;
+margin: 2rem;
+}
+
+.Cred_Tot {
+font-family: Geneva, regular;
+font-size: 24px;
+text-align: justify;
+margin: 2rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------
+Sección CréditosFin
+--------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------
+Sección Contactos
+--------------------------------------------------------------------------------------------------------*/
+.Contactos {
+  background-color: #ffffff94;
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 450px;
+  width: 1400px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.Con_tit {
+  font-family: Geneva, regular;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: -80px;
+  margin-right: auto;
+}
+
+.Con_Tot {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.mapa2 {
+  margin-right: 10px;
+  margin-left: 150px;
+}
+
+/*--------------------------------------------------------------------------------------------------------
+Sección ContactosFin
+--------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección Sistemas
+------------------------------------------------------------------------------------------------------------------*/
+.C_Sistemas {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: auto;
+  width: 1700px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.Tit1 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 66px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.Img1 {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 470px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.Img2 {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 470px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.Mision {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 600px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Vision {
+  background-color: #f8f9fa;
+  width: 550px;
+  height: 600px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Tet1  {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.Tet2  {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.T3 {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 400px;
+  width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.Tot {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.T4 {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 200px;
+  width: 750px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.Tit2 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 46px;
+  text-align: left;
+  margin: 2rem;
+}
+
+.facebook-S {
+  position: relative;
+  top: -150px;
+  right: -570px;
+}
+
+.Pensum-S {
+  position: relative;
+  top: -70px;
+  right: -460px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección SistemasFin
+------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección Industrial
+------------------------------------------------------------------------------------------------------------------*/
+.C_Industrial {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: auto;
+  width: 1700px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección IndustrialFin
+------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección Civil
+------------------------------------------------------------------------------------------------------------------*/
+.C_Civil {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: auto;
+  width: 1700px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección CivilFin
+------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección AgroIndustrial
+------------------------------------------------------------------------------------------------------------------*/
+.C_AgroIndustrial {
+  max-width: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: auto;
+  width: 1700px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección AgroIndustrialFin
+------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección NuevoIngreso
+------------------------------------------------------------------------------------------------------------------*/
+.NI1 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 1000px;
+  width: 1500px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.NI_T1 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 52px;
+  text-align: center;
+  margin: 2rem;
+}
+
+.NI_Tot1 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.NI2 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 1000px;
+  width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.NI_T2 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: left;
+  margin: 2rem;
+}
+
+.NI_Tot2 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.NI3 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 650px;
+  width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.NI_T3 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 52px;
+  text-align: left;
+  margin: 2rem;
+}
+
+.NI_Tot3 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.NI4 {
+  background-color: #ffffff94;
+  max-width: none;
+  max-height: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 1200px;
+  width: 1500px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.NI_T4 {
+  font-family: Geneva, regular;
+  font-weight: bold;
+  font-size: 52px;
+  text-align: left;
+  margin: 2rem;
+}
+
+.NI_Tot4 {
+  font-family: Geneva, regular;
+  font-size: 24px;
+  text-align: justify;
+  margin: 3rem;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+Sección NuevoIngresoFin
+------------------------------------------------------------------------------------------------------------------*/
